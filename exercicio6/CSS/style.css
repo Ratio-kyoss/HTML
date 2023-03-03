@@ -1,0 +1,106 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 13, 129);
+    color: rgb(172, 241, 184);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: rgba(88, 171, 219, 0.904) 5px solid;
+}
+
+footer {
+  background-color: rgb(0, 13, 129) ;
+  padding:  15px;
+  color: rgb(172, 241, 184);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.container {
+    background-color: beige ;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.product-container {
+    max-width: 1200px;
+    margin: 0;
+}
+
+.card {
+    display: inline-block;
+   width: 33%;
+}
+
+.product-image {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#img-1 { 
+    background-image: url(../imagem/Carteiro.jpg);
+}
+
+#img-2 {
+    background-image: url(../imagem/Gemaplys.jpg);
+}
+
+#img-3 {
+    background-image: url(../imagem/Saiko.jpg);
+}
+
+#img-4 {
+    background-image: url(../imagem/Scott.jpg);
+}
+
+#img-5 {
+    background-image: url(../imagem/Tiba.jpg);
+}
+
+#img-6 {
+    background-image: url(../imagem/Ykuuro.jpg)
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: aquamarine;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+.dsn {
+      display: block;
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 200px;
+    padding: 15px ;
+    margin-bottom: 10px;
+}
+
+.dsn:hover {
+    background-color: aquamarine;
+}
+
+h2 {
+    text-align: center;
+    font-size: medium   ;
+}
+p{
+    padding: 15px;
+    color: darkolivegreen;
+    text-align: center;
+}
