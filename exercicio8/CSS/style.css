@@ -1,0 +1,107 @@
+* {
+   box-sizing: border-box;
+}
+/*Estilo do body*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.anotacao {
+   background-color: rgb(162, 255, 160);
+   padding: 5px; /*distância do texto para a margem e o texto*/
+   text-align: center;
+}
+
+.cabecalho {
+    padding: 60px; /*afasta o cabeçalho dos outros textos*/
+    text-align: center; /*centraliza o texto*/
+    background-image: url(../Imagens/fundo_pc.png);
+    background-size: cover;
+    color: rgb(97, 181, 255);
+}
+
+/*Estilo da barra de navegação*/
+.barra_nav {
+    display: flex;
+    background-color: black;
+}
+.barra_nav a {
+    color: white;
+    padding: 14px 10px; /* o da esquerda é a distanciâ da margens ao redor e o da direita é a distância entre eles (pg2, pg3, pg4 e pg,5)*/ 
+    text-decoration: none;
+    text-align: center;
+}
+
+/*trocar a cor do fundo quando o cursor estiver sobre o link*/
+
+.barra_nav a:hover {
+    background-color: rgb(71, 71, 71);
+    color: rgb(255, 239, 218);
+} 
+
+.coluna {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/*Criar 2 colunas desiguais (30 e 70%)*/
+
+.lateral {
+    flex: 30%;
+    background-color: whitesmoke;
+    padding: 20px; /*Afasta o texto da borda e da barra de nav*/
+}
+
+.principal {
+    flex: 70%;
+    background-color: aquamarine;
+    padding: 20px; /*Afasta a div "principal" da barra de nav e da lateral*/
+}
+
+/*Imagens falsas (apenas marcação do espaço)*/
+
+.imagem_falsa {
+    background-color: aquamarine;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+}
+
+.imagem_falsa2 {
+    margin-bottom: 10px;
+    background-color: aqua;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+}
+
+
+.imagem_falsa3 {
+    background-color: rgb(206, 253, 158);
+    width: 100%;
+    padding: 20px ;
+    height: 200px;
+}
+
+@media screen and (max-width: 500px) {
+    .coluna, .barra_nav { 
+       flex-direction: column;
+}
+
+.cabecalho {
+    background-image: url(../Imagens/Cellbit.png);
+    background-size: cover;
+    color:crimson;
+}
+
+}
+
+.rodape {
+    text-align: center;
+    background-color: antiquewhite;
+    max-height: fit-content;
+    padding: 20px;
+}
+
