@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-image: url(../Imagens/arvrona.png);
+    margin: 0px;
+    font-family: 'farsan';
+}
+
+
+.cabecalho {
+    padding: 5px;
+    text-align: left; 
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    background-color: #fef104;
+    font-family: 'Caveat';
+}
+
+.barra_nav {
+    text-align: right;
+    font-size: 30px;
+    padding: 15px;
+    background-color: #fef498;
+    margin-bottom: 30px;
+    top: 46px;
+    height: 50px;
+}
+    .barra_nav a {
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+
+
+
+
+.coluna {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.coluna_2 {
+    flex: 70%;
+}
+
+.coiso {
+    background-color: #fef498;
+    position: absolute;
+    width: 360px;
+    height: 30px;
+    left: 0px;
+    top: 69px; /*esse é dos bons*/
+ }
+
+.cont {
+    display: solid;
+    max-width: 850px;
+    margin-left: 370px;
+    text-align: center;
+}
+
+.bloco_titulo {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #33B8A5;
+    border-radius: 5px;
+    box-shadow: rgba(42, 41, 41, 0.484) 4px 6px 12px;
+    margin-bottom: 15px;
+}
+
+.bloco_cont {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #84D4C9;
+    font-size: larger;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+    box-shadow: rgba(42, 41, 41, 0.484) 4px 6px 12px;
+}
+
+.cont_2 {
+    display: solid;
+   margin-left: 370px;
+   max-width: 850px;
+   text-align: center;
+   margin-bottom: 15px;
+}
+.bloco_titulo2 {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #93Ea2c;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(42, 41, 41, 0.484) 4px 6px 12px;
+ }
+
+.bloco_cont2 {
+    padding: 10px;
+    background-color: #c8fd87;
+    font-size: larger;
+    border-radius: 5px;
+    box-shadow: rgba(42, 41, 41, 0.484) 4px 6px 12px;
+}
+
+.mmes {
+    display: flex;
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 530px;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+     .coluna, .barra_nav {
+        flex-direction:column
+     }
+     .cabecalho {
+        background-size: cover;
+        background-color: #fef104;
+     }
+     body {
+        background-image: url(../Imagens/arvre.png);
+        margin: 0px;
+        font-family: 'farsan';
+     }
+
+     .barra_nav {
+        background-size: cover;
+        background-color: #fef498;
+     }
+     .coiso {
+        background-color: #fef498;
+        background-size: cover;
+        width: auto;
+        position: absolute;
+     }
+     
+     .cont {
+        background-size: cover;
+        width: auto;
+        margin-left: 90px;
+        max-width: 300px;
+   
+     }
+     .cont_2 {
+        background-size: cover;
+        width: auto;
+        margin-left: 90px;
+   max-width: 300px;
+  }
+
+  .mmes {
+    display: flex;
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 130px;
+    align-items: center;
+}
+    }
+footer {
+    background-color: #fef984;
+    text-align: center;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+
+
+
+
+
+
