@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a8ff51;
+    display: flex;
+    align-items: center; /* esse centraliza no container*/
+    justify-content: center; /* esse centraliza na página*/
+    height: 100vh;
+}
+
+.container {
+    background-color: #2ca0ff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select , 
+input[type="number"] , /* declara os tipos de input que deve mudar*/
+input[type="text"] {
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: #c8deff;
+}
+
+button {
+    background-color: #1a66ff;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-left: 120px;
+}
+
+button:hover {
+    background-color: #a8ff51;
+    color: black;
+}
+
+input:hover , select:hover {
+    background-color: rgb(221, 255, 244);
+}
+
+.output-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.output-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#message {
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
